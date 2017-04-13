@@ -1,0 +1,111 @@
+
+\documentclass[handout]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage{beamerthemeshadow}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{color}
+%\usepackage{pdflatex}
+
+\usetheme{Warsaw} % change the theme to have a different layout, e.g. Berkeley
+
+
+%Presentation information
+%----------------------------------------------------------------------------------
+\title[Topic\hspace{2.0cm} \insertframenumber/\inserttotalframenumber]{Rural Internship Under ActionAid, Patna}
+
+\author[Rajeev Kumar Singh (IIIT-V) %This will come at the bottom of every page
+]{ %This will come only on the title page
+\textbf{\textcolor{blue}{Aniket Raj (201452027)}}
+\textbf{\textcolor{blue}{\\Rajeev Kumar (201452062)}}
+\textbf{\textcolor{blue}{ \\ Anand Rahul}}
+%\\[0.10\baselineskip]
+%\textbf{\small \textcolor{violet}{Organized by}\\ Department of Electronics \& Communications Engineering \\ Charusat University of Science and Technology, Changa}
+}
+
+%\logo{\includegraphics[height=0.8cm]{./logo_iiitv_bb_100.png}} 
+%\logo{\includegraphics[height=1.0cm]{./Figures/daiict_logo}}
+
+%\date[ICSIVP2012, IIT Patna %This will come at the bottom of every page
+%]{ %This will come only on the title pag
+\date{January 20, 2017}
+
+
+%----------------------------------------------------------------------------------
+\definecolor{themecolor}{rgb}{0.2,0.2,0.7}
+\setbeamercolor{author in head/foot}{fg=white,bg=themecolor}
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%%
+  \begin{beamercolorbox}[wd=1\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    %\insertshortdate \hspace{2.0cm} \insertshortauthor%
+  \end{beamercolorbox}%
+  }
+  \vskip0pt%
+}
+%---------------------------------------------------------------------
+
+\begin{document}
+
+%Title Slide (Slide1)
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% Outline Slide (Slide2)
+\begin{frame}%[allowframebreaks]
+	\frametitle{Outline}
+	\framesubtitle{}
+	\tableofcontents
+\end{frame}
+
+
+\section[About ActionAid]{About ActionAid}
+\input{./intro_typesetting}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[Tasks Assigned]{Tasks Assigned}
+\input{./install}
+
+
+\section[Excel sheets]{Excel sheets}
+\input{./latex_example}
+
+\section[Homeless]{Homeless}
+\input{./lab_latex}
+
+\section[Asset Management]{Asset Management}
+\input{./asset}
+
+\section[Database]{Database}
+\input{./database}
+
+\section[Untouchability]{Untouchability}
+\input{./Untouchability}
+
+
+\section[Any Question]{Any Question}
+\input{./AnyQuestion}
+
+\section[Reference]{Reference}
+\input{./Reference}
+
+
+
+
+\section[Demo]{Demo}
+
+
+
+\begin{frame}
+\frametitle{Thank You}
+\begin{center}
+\Huge Thank You
+
+\end{center}
+
+\end{frame}
+
+
+\end{document}
